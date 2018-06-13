@@ -56,6 +56,8 @@ function handleAuth(state, action) {
 For more complex apps, using the combineReducers() utility provided by Redux is possible (indeed, recommended). It combines all of the reducers in the app into a single index reducer. Every reducer is responsible for its own part of the app's state, and the state parameter is different for every reducer. The combineReducers() utility makes the file structure much easier to maintain.
 
 If an object (state) changes only some values, Redux creates a new object, the values that didn’t change will refer to the old object and only new values will be created. That's great for performance. To make it even more efficient you can add Immutable.js.
+
+
 const rootReducer = combineReducers({
     handleAuth: handleAuth,
     editProfile: editProfile,
