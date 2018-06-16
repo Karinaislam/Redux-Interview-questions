@@ -24,6 +24,7 @@ In a nutshell, actions are events. Actions send data from the application (user 
     payload: {username: 'alex', password: '123456'}
 }
 
+
 Actions are created with action creators. That sounds obvious, I know. They are just functions that return actions.
 
 function authUser(form) {
