@@ -36,6 +36,7 @@ return {
 }
 
 
+
 Calling actions anywhere in the app, then, is very easy. Use the dispatch method, like so:
 dispatch(authUser(form));
 
